@@ -97,6 +97,10 @@ body p, span{
     gap: 15px
 }
 
+.btn a{
+    text-decoration: none;
+    color: #8b8b8c;
+}
 .top-btn a{
     color: white;
     text-decoration: none;
