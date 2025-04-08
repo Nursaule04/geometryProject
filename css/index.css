@@ -97,6 +97,11 @@ body p, span{
     gap: 15px
 }
 
+.top-btn a{
+    color: white;
+    text-decoration: none;
+}
+
 .btn-img{
     display: flex;
     width: 50px;
