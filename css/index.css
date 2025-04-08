@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    font-family: 'Bai Jamjure', sans-serif;
+    background: #fff;
+    color: #333;
+}
+
+body p, span{
+    color: #8b8b8c;
+    font-weight: lighter;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.logo {
+    display: flex;
+    font-size: 40px;
+    font-weight: normal;
+    align-items: center;
+}
+.logo-image{
+    margin-right: 20px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 280px;
+    max-width: 570px;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    color: #f78020;
+}
+
+.hero-text p {
+    font-size: 30px;
+}
+
+.hero-img img {
+    max-width: 663px;
+    max-height: 442px;
+}
+
+.topics {
+    padding: 2rem;
+}
+
+.topics h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #4F5ABD;
+    margin-bottom: 1rem;
+}
+
+.topic-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.75rem;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 0.7rem 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 26px;
+    gap: 15px
+}
+
+.btn-img{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FA9748;
+    border-radius: 15px;
+}
+
+.btn-img img{
+    width: 30px
+}
+
+.btn:hover {
+    background-color: #f78020;
+}
+
+.btn.active {
+    background-color: #fdd9b6;
+    border-color: #f78020;
+}
+
+.community {
+    display: flex;
+    background-color: #f0f3ff;
+    align-items: center;
+    padding: 2rem;
+    justify-items: left;
+
+}
+
+.community-text h2{
+    font-size: 64px;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+    line-height: 1fr;
+}
+
+.community-text p{
+    font-size: 30px;
+    text-align: left;
+    padding: 30px 0 60px;
+}
+
+
+.top-btn {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 1rem;
+    background-color: #4F5ABD;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+}
+
+.top-btn img{
+    width: 35px;
+}
+
+.footer {
+    background-color: #fff;
+    padding: 2rem 1rem;
+    border-top: 1px solid #ddd;
+    font-size: 0.95rem;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.footer-logo h2{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.footer-links {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0 40px;
+}
+
+.footer-links li {
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.footer-links a:hover {
+    color: #f78020;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+    font-size: 30px;
+}
+
+.social-icons a img {
+    vertical-align: middle;
+}
