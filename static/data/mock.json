@@ -1,0 +1,108 @@
+[
+  {
+    "id": 1,
+    "chapter": "Points, Lines",
+    "body": {
+      "topics": [
+        "An introduction to geometry",
+        "Measure line segments",
+        "Finding distances and midpoints",
+        "Measure and classify an angle",
+        "Polygons"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "chapter": "Proof",
+    "body": {
+      "topics": [
+        "Conjecture",
+        "Working with logic",
+        "if-then statement",
+        "proofs with algebra"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "chapter": "Perpendecular and parllel",
+    "body": {
+      "topics": [
+        "Angless, parallel lines and transverssals"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "chapter": "Triangles",
+    "body": {
+      "topics": [
+        "Congruent triangles",
+        "More about triangles"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "chapter": "Similarity",
+    "body": {
+      "topics": [
+        "Polygons",
+        "Triangles"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "chapter": "Right triangles and trigonometry",
+    "body": {
+      "topics": [
+        "Mean and geometry",
+        "The converse of the Pythagorean theorem and special triangles"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "chapter": "Quadrilaterals",
+    "body": {
+      "topics": [
+        "Angles",
+        "Properties of parallelograms"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "chapter": "Quadrilaterals",
+    "body": {
+      "topics": [
+        "Common types of transformation",
+        "Vectors",
+        "Transformation using matrices"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "chapter": "Circles",
+    "body": {
+      "topics": [
+        "Basic information about circles",
+        "Inscribed angles and polygons",
+        "Advanced information about circles"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "chapter": "Area",
+    "body": {
+      "topics": [
+        "Parallelogram, triangles etc",
+        "The surface area and the volume of pyramids, prisms, cylinders and cones"
+      ]
+    }
+  }
+]

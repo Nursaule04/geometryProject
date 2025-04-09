@@ -5,9 +5,10 @@ body {
     color: #333;
 }
 
-body p, span{
+body p, span, a{
     color: #8b8b8c;
     font-weight: lighter;
+    text-decoration: none;
 }
 .header {
     display: flex;
@@ -30,7 +31,6 @@ body p, span{
 .nav {
     display: flex;
     align-items: center;
-    gap: 1rem;
 }
 
 .search {
@@ -241,4 +241,86 @@ body p, span{
 
 .social-icons a img {
     vertical-align: middle;
+}
+
+
+/*-------------------------     CHAPTERS     PAGE           -----------------------------------------------*/
+
+.nav{
+    padding: 20px  0;
+}
+#breadcrumb, #chapter{
+    color: #0017E6;
+    cursor: pointer;
+    font-size: 25px;
+}
+#chapter-list {
+    padding: 50px 130px
+}
+
+.chapter-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+
+}
+
+.chapter-card p{
+    font-size: 30px;
+    color: #4F5ABD;
+}
+
+.chapter-card p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.chapter-bar {
+    width: 35px;
+    height: 80px;
+    background-color: orange;
+    margin-right: 10px;
+}
+
+/* --------------------------         TOPIC ---------------------------------------    */
+
+.chapter {
+    padding: 50px 130px
+}
+
+#chapter-content > p {
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+#chapter-content > img{
+    margin: 20px 0;
+}
+
+.paragraph-card {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+.paragraph-card p{
+    font-size: 40px;
+    font-weight: bold;
+    color: #4F5ABD;
+
+}
+
+.paragraph-bar {
+    width: 25px;
+    height: 80px;
+    background-color: orange;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.paragraph-box{
+    margin-left: 30px;
+    border-radius: 25px;
 }

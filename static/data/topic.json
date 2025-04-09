@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "topic": "An introduction to geometry",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "A point in geometry is a location. It has no size, no width, no length and no depth. A point is shown by a dot."
+      },
+      {
+        "type": "image",
+        "src": "../static/image/dotP.png",
+        "alt": "dot"
+      },
+      {
+        "type": "paragraph",
+        "text": "A line is defined as a line of points that extends infinitely in two directions. It has one dimension, length. Points that are on the same line are called collinear points."
+      },
+      {
+        "type": "image",
+        "src": "../static/image/line.png",
+        "alt": "line"
+      },
+      {
+        "type": "paragraph",
+        "text": "A line is defined by two points and is written as shown below with an arrowhead."
+      },
+      {
+        "type": "image",
+        "src": "../static/image/abarrowhead.png"
+      },
+      {
+        "type": "video",
+        "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+      }
+    ]
+  }
+]
