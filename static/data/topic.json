@@ -32,6 +32,10 @@
       {
         "type": "video",
         "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+      },
+      {
+        "type": "task",
+        "src": "task.html?chapter=Points, Lines&topic=An introduction to geometry"
       }
     ]
   }

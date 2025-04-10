@@ -14,8 +14,8 @@ fetch('../static/data/topic.json')
         const topic = data.find(t => t.topic === topicParam);
         if (!topic) return
 
-        document.getElementById('breadcrumb').innerHTML = chapter + '/';
-        document.getElementById('chapter').innerHTML = topic.topic + '/ '
+        document.getElementById('breadcrumb').innerHTML = chapter;
+        document.getElementById('chapter').innerHTML = topic.topic
         document.getElementById('chapter').href = "../html/chapters.html?chapter=" + chapter
 
         const container = document.getElementById('chapter-content');
@@ -54,6 +54,9 @@ fetch('../static/data/topic.json')
                     child.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
                     child.allowFullscreen = true;
                     element.appendChild(child)
+                    break;
+                case 'task':
+                    document.getElementById('exercise').href = item.src || '../html/404.html'
                     break;
             }
 

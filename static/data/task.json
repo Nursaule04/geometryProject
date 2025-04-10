@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "topic": "An introduction to geometry",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is a defining characteristic of a point in geometry?",
+        "answers": [
+          "It has length and width",
+          "It has no size and is represented by a dot",
+          "It extends infinitely in two directions",
+          "It is a part of a line with defined endpoints"
+        ],
+        "correct": 2
+      },
+      {
+        "id": 2,
+        "question": "What do we call two lines that meet at a point?",
+        "answers": [
+          "Parallel lines",
+          "Collinear lines",
+          "Intersecting lines",
+          "Line segments"
+        ],
+        "correct": 3
+      },
+      {
+        "id": 3,
+        "question": "What is a defining characteristic of a point in geometry?",
+        "answers": [
+          "It has length and width",
+          "It has no size and is represented by a dot",
+          "It extends infinitely in two directions",
+          "It is a part of a line with defined endpoints"
+        ],
+        "correct": 2
+      }
+    ]
+  }
+]

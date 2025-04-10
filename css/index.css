@@ -249,7 +249,12 @@ body p, span, a{
 .nav{
     padding: 20px  0;
 }
-#breadcrumb, #chapter{
+nav > p{
+    font-size: 25px;
+    margin: 0 5px;
+}
+
+#breadcrumb, #chapter, #topic{
     color: #0017E6;
     cursor: pointer;
     font-size: 25px;
@@ -305,11 +310,11 @@ body p, span, a{
     cursor: pointer;
 }
 
+.paragraph-card  a,
 .paragraph-card p{
     font-size: 40px;
     font-weight: bold;
     color: #4F5ABD;
-
 }
 
 .paragraph-bar {
@@ -323,4 +328,98 @@ body p, span, a{
 .paragraph-box{
     margin-left: 30px;
     border-radius: 25px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* ------------------------       TASK PAGE          --------------------------------------*/
+
+.main {
+    padding: 0 130px;
+}
+
+.title {
+    font-size: 24px;
+    color: #4F5ABD;
+    margin-bottom: 20px;
+}
+
+.exercise-block {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 16px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 6px;
+}
+
+.exercise-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.progress .circle {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background: #ccc;
+}
+
+.progress .circle.active {
+    background: #4F5ABD;
+}
+
+.question-area h3 {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.answer-btn {
+    padding: 12px;
+    background: #f2f2f2;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.answer-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.answer-btn.selected {
+    border: 2px solid #4F5ABD;
+    background-color: #e8eaff;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #32CD32;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
 }
