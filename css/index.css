@@ -337,14 +337,15 @@ nav > p{
     height: 100vh;
 }
 
-/* ------------------------       TASK PAGE          --------------------------------------*/
+/* -----------------------------------------------------       TASK PAGE          --------------------------------------*/
 
 .main {
     padding: 0 130px;
 }
 
 .title {
-    font-size: 24px;
+    font-size: 40px;
+    font-weight: bold;
     color: #4F5ABD;
     margin-bottom: 20px;
 }
@@ -378,7 +379,8 @@ nav > p{
     background: #4F5ABD;
 }
 
-.question-area h3 {
+.question-area > h3,
+.question-area > h5{
     font-weight: bold;
     font-size: 18px;
     text-align: center;
@@ -422,4 +424,26 @@ nav > p{
     font-size: 16px;
     cursor: pointer;
     border-radius: 4px;
+}
+
+.finish-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.action-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4F5ABD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-btn:hover {
+    background-color: #3d47a3;
 }

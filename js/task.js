@@ -15,7 +15,9 @@ fetch('../static/data/task.json')
         document.getElementById('breadcrumb').innerHTML = chapter;
         document.getElementById('chapter').innerHTML = topic.topic;
         document.getElementById('chapter').href = "../html/chapters.html?chapter=" + chapter;
+        document.getElementById('topic').href = `../html/topic.html?chapter=${chapter}&topic=${topicParam}`;
 
+        let correctAnswerCount = 0;
         let currentQuestionIndex = 0;
         const totalQuestions = topic.questions.length;
 
@@ -49,7 +51,8 @@ fetch('../static/data/task.json')
                 if (!selected) return;
 
                 const selectedIndex = parseInt(selected.dataset.index);
-                const isCorrect = selectedIndex === (questionData.correct - 1); // -1 потому что в JSON index начинается с 1
+                const isCorrect = selectedIndex === (questionData.correct);
+                correctAnswerCount = selectedIndex === (questionData.correct) ? correctAnswerCount + 1 : correctAnswerCount;
 
                 selected.style.backgroundColor = isCorrect ? 'lightgreen' : 'red';
 
@@ -59,9 +62,25 @@ fetch('../static/data/task.json')
                         renderQuestion(currentQuestionIndex);
                         updateProgress(currentQuestionIndex);
                     } else {
-                        document.getElementById('question-container').innerHTML = `<h3>You've completed the exercise 🎉</h3>`;
+                        document.getElementById('question-container').innerHTML = `
+                            <h3>You've completed the exercise 🎉</h3>
+                            <h5>Points: ${correctAnswerCount}/${totalQuestions}</h5>
+                            <div class="finish-buttons">
+                                <button id="restart-btn" class="action-btn">Restart</button>
+                                <button id="back-btn" class="action-btn">Back to Topics</button>
+                            </div>
+                        `;
+                        document.getElementById('restart-btn').onclick = () => {
+                            currentQuestionIndex = 0;
+                            renderQuestion(currentQuestionIndex);
+                            updateProgress(currentQuestionIndex);
+                        };
+
+                        document.getElementById('back-btn').onclick = () => {
+                            window.location.href = `../html/topic.html?chapter=${chapter}&topic=${topicParam}`;
+                        };
                     }
-                }, 1000);
+                }, 500);
             };
         }
 

@@ -12,7 +12,7 @@
           "It extends infinitely in two directions",
           "It is a part of a line with defined endpoints"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "id": 2,
@@ -23,7 +23,7 @@
           "Intersecting lines",
           "Line segments"
         ],
-        "correct": 3
+        "correct": 2
       },
       {
         "id": 3,
@@ -34,7 +34,7 @@
           "It extends infinitely in two directions",
           "It is a part of a line with defined endpoints"
         ],
-        "correct": 2
+        "correct": 1
       }
     ]
   }
