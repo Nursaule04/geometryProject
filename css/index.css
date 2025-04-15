@@ -10,6 +10,71 @@ body p, span, a{
     font-weight: lighter;
     text-decoration: none;
 }
+
+
+/* Default (light theme) */
+body.light-theme {
+    background-color: #fff;
+    color: #333;
+}
+
+
+body.light-theme p,
+body.light-theme span,
+body.light-theme a{
+    color: #8b8b8c;
+}
+
+
+/* Dark theme overrides */
+body.dark-theme,
+body.dark-theme .community{
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+}
+
+body.dark-theme h1,
+body.dark-theme h2,
+body.dark-theme h3,
+body.dark-theme h4,
+body.dark-theme h5,
+body.dark-theme h6,
+body.dark-theme p,
+body.dark-theme span,
+body.dark-theme a{
+    color: #bfbfbf;
+}
+
+body.dark-theme #theme-toggle{
+    background-color: #4F5ABD
+}
+
+body.dark-theme .header,
+body.dark-theme .footer,
+body.dark-theme .exercise-block,
+body.dark-theme .exercise-block,
+body.dark-theme .chapter-card,
+body.dark-theme .btn,
+body.dark-theme .top-btn,
+body.dark-theme .action-btn {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    border-color: #444;
+}
+
+
+body.dark-theme .btn:hover,
+body.dark-theme .top-btn:hover,
+body.dark-theme .action-btn:hover {
+    background-color: #444;
+}
+
+body.dark-theme .chapter-bar,
+body.dark-theme .paragraph-bar {
+    background-color: #f78020;
+}
+
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -32,11 +97,35 @@ body p, span, a{
     display: flex;
     align-items: center;
 }
+.calc-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 20px;
+    font-size: 25px;
+    border: 0;
+    background-color: inherit;
+}
+.calc-container > img {
+    transform: rotate(90deg);
+    width: 20px;
+}
 
-.search {
+.calc-container:hover > p,
+.calc-container:hover > img{
+    color: #f78020;
+    cursor: pointer;
+}
+
+#theme-toggle {
+    font-size: 20px;
     padding: 1rem;
-    border: 1px solid #ccc;
     border-radius: 30px;
+}
+
+#theme-toggle:hover{
+    color: #f78020;
+    cursor: pointer;
 }
 
 .hero {
@@ -446,4 +535,94 @@ nav > p{
 
 .action-btn:hover {
     background-color: #3d47a3;
+}
+
+
+/* --------------------    Modal Page          --------------------------------------------------------------*/
+
+
+.hystmodal {
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start; /* см. ниже */
+    margin: auto;
+    align-items: center;
+    z-index: 99;
+    /* Чтобы окно не прилипало к границе
+    браузера установим отступы */
+    padding:30px 0;
+}
+.hystmodal__wrap {
+    flex-shrink: 0;
+    flex-grow: 0;
+    width: 100%;
+    min-height: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.hystmodal__window {
+    margin: 50px 0;
+    flex-shrink: 0;
+    flex-grow: 0;
+    background: #fff;
+    width: 600px;
+    max-width: 100%;
+    overflow: visible;
+    transition: transform 0.2s ease 0s, opacity 0.2s ease 0s;
+    transform: scale(0.9);
+    opacity: 0;
+}
+.hystmodal--active{
+    visibility: visible;
+}
+.hystmodal--active .hystmodal__window{
+    transform: scale(1);
+    opacity: 1;
+}
+
+.hystmodal__shadow{
+    position: fixed;
+    border:none;
+    display: block;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 98;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+    background-color: black;
+}
+/* активная подложка */
+.hystmodal__shadow--show{
+    pointer-events: auto;
+    opacity: 0.6;
+}
+
+
+.hystmodal__opened {
+    position: fixed;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.hystmodal--moved{
+    visibility: visible;
 }

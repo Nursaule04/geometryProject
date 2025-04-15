@@ -17,7 +17,13 @@
             Linecraft
         </div>
         <div class="nav">
-            <input type="text" placeholder="Search" class="search"/>
+            <button class="calc-container" id="calculator" data-hystmodal="#myModal"
+                    aria-label="Open calculator modal">
+                <p>Calculator</p>
+                <img src="static/image/arrow-right.png" alt="arrow">
+            </button>
+
+            <button id="theme-toggle" class="top-btn">Сменить тему</button>
         </div>
     </header>
     <section class="hero">
@@ -31,7 +37,7 @@
             <a id="topics"></a>
         </div>
         <div class="hero-img">
-            <img src="static/image/section-1.png" alt="Geometry illustration"/>
+            <img src="static/image/section-1img.png" alt="img">
         </div>
     </section>
 
@@ -128,8 +134,8 @@
                 Enhance your geometry skills with a vast collection of activities, exercises,
                 and lessons from our global community. Ready to level up?
             </p>
-            <button class="top-btn">
-                <a href="#topics">Back to top</a>
+            <button class="top-btn" id="scroll-top-btn">
+                Back to top
                 <img src="static/image/arrow_drop_up.png" alt="arrow">
             </button>
         </div>
@@ -171,5 +177,30 @@
         </div>
     </footer>
 
+    <div class="hystmodal" id="myModal" aria-hidden="true" >
+        <div class="hystmodal__wrap">
+            <div class="hystmodal__window" role="dialog" aria-modal="true" >
+                <div id="geometry" style="width: 600px; height: 400px;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/modalPage.js"></script>
+
+    <script>
+        const myModal = new HystModal({
+            linkAttributeName: 'data-hystmodal',
+        });
+    </script>
+
+    <script src="https://www.desmos.com/api/v1.10/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+
+    <script>
+        var elt = document.getElementById('geometry');
+        var geometry = Desmos.Geometry(elt);
+    </script>
+
+    <script src="js/ThemeToggle.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>

@@ -29,3 +29,9 @@ fetch('/geometryProject/static/data/mock.json')
     .catch(error => {
         console.error('Error loading data:', error);
     });
+
+
+const calculator = document.getElementById('calculator')
+
+
+
