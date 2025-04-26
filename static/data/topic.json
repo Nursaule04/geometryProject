@@ -30,8 +30,36 @@
         "src": "../static/image/abarrowhead.png"
       },
       {
+        "type": "paragraph",
+        "text": "Two lines that meet in a point are called intersecting lines."
+      },
+      {
+        "type": "paragraph",
+        "text": "A part of a line that has defined endpoints is called a line segment.  A line segment as the segment between A and B above is written as:"
+      },
+      {
+        "type": "image",
+        "src": "../static/image/abarrowhead.png"
+      },
+      {
+        "type": "paragraph",
+        "text": "A plane extends infinitely in two dimensions. It has no thickness. An example of a plane is a coordinate plane. A plane is named by three points in the plane that are not on the same line. Here below we see the plane ABC."
+      },
+      {
+        "type": "image",
+        "src": "../static/image/intro1.png"
+      },
+      {
+        "type": "paragraph",
+        "text": "A space extends infinitely in all directions and is a set of all points in three dimensions. You can think of a space as the inside of a box."
+      },
+      {
+        "type": "image",
+        "src": "../static/image/intro2.png"
+      },
+      {
         "type": "video",
-        "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        "src": "https://youtu.be/Ow6PZVftvxs?si=neCwbtUhzDl01RxY"
       },
       {
         "type": "task",
