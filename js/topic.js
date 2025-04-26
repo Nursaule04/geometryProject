@@ -7,7 +7,7 @@ const chapter = getQueryParam('chapter');
 
 const topicParam = getQueryParam('topic')
 
-fetch('https://github.com/Nursaule04/geometryProject/blob/master/static/data/topic.json')
+fetch('../static/data/topic.json')
     .then(res => res.json())
     .then(data => {
 
