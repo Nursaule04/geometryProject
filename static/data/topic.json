@@ -77,7 +77,7 @@
         },
         {
           "type": "image",
-          "src": "../static/image/AB.jpg",
+          "src": "../static/image/abarrowhead.png",
           "alt": "AB"
         },
         {
@@ -101,6 +101,10 @@
           "src": "../static/image/redline.png"
         },
         {
+          "type": "paragraph",
+          "text": "This is read as the line AB is congruent to the line CD."
+        },
+        {
           "type": "video",
           "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
         },
@@ -109,5 +113,67 @@
           "src": "task.html?chapter=Points, Lines&topic=An introduction to geometry"
         }
       ]
-    }
+    },
+  {
+      "id": 1,
+      "topic": "Findings distances and midpoints",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "If we want to find the distance between two points on a number line we use the distance formula:"
+        },
+        {
+          "type": "paragraph",
+          "text": "AB=|b−a|or|a−b|"
+        },
+        {
+          "type": "paragraph",
+          "text": "Example"
+        },
+        {
+          "type": "paragraph",
+          "text": "Point A is on the coordinate 4 and point B is on the coordinate -1."
+        },
+        {
+          "type": "paragraph",
+          "text": "AB=|4−(−1)|=|4+1|=|5|=5"
+        },
+        {
+          "type": "paragraph",
+          "text": "If we want to find the distance between two points in a coordinate plane we use a different formula that is based on the Pythagorean Theorem where (x1,y1) and (x2,y2) are the coordinates and d marks the distance:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/redline.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The point that is exactly in the middle between two points is called the midpoint and is found by using one of the two following equations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Method 1: For a number line with the coordinates a and b as endpoints:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/redline.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Method 2: If we are working in a coordinate plane where the endpoints has the coordinates (x1,y1) and (x2,y2) then the midpoint coordinates is found by using the following formula:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/redline.png"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        },
+        {
+          "type": "task",
+          "src": "task.html?chapter=Points, Lines&topic=An introduction to geometry"
+        }
+      ]
+    },
 ]
