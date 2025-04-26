@@ -38,5 +38,48 @@
         "src": "task.html?chapter=Points, Lines&topic=An introduction to geometry"
       }
     ]
-  }
+  },
+  {
+      "id": 1,
+      "topic": "Measure line segments",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The length of a line segment can be measured (unlike a line) because it has two endpoints.  As we have learnt previously the line segment can be written as"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/AB.jpg",
+          "alt": "AB"
+        },
+        {
+          "type": "paragraph",
+          "text": "While the length or the measure is simply written AB. The length could either be determined in Metric units (e.g. millimeters, centimeters or meters) or Customary units (e.g. inches or foot)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Two lines could have the same measure but still not be identical."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/picture22.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "AB and CD have the exact same measure and are said to be congruent and is noted as"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/redline.png"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        },
+        {
+          "type": "task",
+          "src": "task.html?chapter=Points, Lines&topic=An introduction to geometry"
+        }
+      ]
+    }
 ]
