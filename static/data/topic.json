@@ -51,7 +51,7 @@
         },
         {
           "type": "image",
-          "src": "../static/image/abarrowhead.png",
+          "src": "../static/image/AB.jpg",
           "alt": "AB"
         },
         {
@@ -72,7 +72,7 @@
         },
         {
           "type": "image",
-          "src": "/Users/nursaulesamieva/Downloads/congruent_line_seg_quiz_question.png"
+          "src": "../static/image/redline.png"
         },
         {
           "type": "video",
