@@ -144,7 +144,7 @@
         },
         {
           "type": "image",
-          "src": "../static/image/redline.png"
+          "src": "../static/image/dist.png"
         },
         {
           "type": "paragraph",
@@ -156,7 +156,7 @@
         },
         {
           "type": "image",
-          "src": "../static/image/redline.png"
+          "src": "../static/image/mid.png"
         },
         {
           "type": "paragraph",
@@ -164,7 +164,7 @@
         },
         {
           "type": "image",
-          "src": "../static/image/redline.png"
+          "src": "../static/image/mid.png"
         },
         {
           "type": "video",
