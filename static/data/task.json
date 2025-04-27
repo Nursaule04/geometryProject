@@ -37,5 +37,161 @@
         "correct": 1
       }
     ]
+  },
+  {
+    "id": 1,
+    "topic": "Measure line segments",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Why can the length of a line segment be measured, but the length of a line cannot?",
+        "answers": [
+          "A line has two ends, unlike a segment.",
+          "A line segment has two endpoints, while a line extends infinitely in both directions.",
+          "A line is always finite, while a segment is infinite.",
+          "A line has no starting point, unlike a segment."
+        ],
+        "correct": 1
+      },
+      {
+        "id": 2,
+        "question": "How can the length of a line segment be written?",
+        "answers": [
+          "AB and CD.",
+          "Line AB.",
+          "AB.",
+          "5 cm."
+        ],
+        "correct": 2
+      },
+      {
+        "id": 3,
+        "question": "What does it mean when two line segments have the same length?",
+        "answers": [
+          "They must be equal in all measurements.",
+          "They are congruent.",
+          "They can be joined into one line.",
+          "They have the same shape."
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Finding distances and midpoints",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Find the midpoint of the line created by the following two points: A(8;5) and B(6;8)",
+        "answers": [
+          "(2;-3)",
+          "(7;6,5)",
+          "(1;-1,5)",
+          "(14;13)"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 2,
+        "question": "What is the distance between the points A(4) and B(-1) on a number line?",
+        "answers": [
+          "4",
+          "3",
+          "6",
+          "5"
+        ],
+        "correct": 3
+      },
+      {
+        "id": 3,
+        "question": "What are the coordinates of the midpoint of the points A(1;2) and B(3;4) in a coordinate plane?",
+        "answers": [
+          "(2,3)",
+          "(1,2)",
+          "(2,2)",
+          "(3,4)"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Measure and classify an angle",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Acute angle",
+        "answers": [
+          "66",
+          "133",
+          "137",
+          "90"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "question": "Obtuse angle",
+        "answers": [
+          "34",
+          "93",
+          "60",
+          "90"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 3,
+        "question": "Right angle",
+        "answers": [
+          "148",
+          "33",
+          "90",
+          "76"
+        ],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Polygons",
+    "questions": [
+      {
+        "id": 1,
+        "question": "How many sides does a nonagon have?",
+        "answers": [
+          "8",
+          "7",
+          "9",
+          "5"
+        ],
+        "correct": 2
+      },
+      {
+        "id": 2,
+        "question": "How many sides does a pentagon have?",
+        "answers": [
+          "6",
+          "5",
+          "7",
+          "8"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 3,
+        "question": "How many sides does a heptagon have?",
+        "answers": [
+          "8",
+          "7",
+          "5",
+          "9"
+        ],
+        "correct": 1
+      }
+    ]
   }
 ]
