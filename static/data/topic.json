@@ -175,5 +175,93 @@
           "src": "task.html?chapter=Points, Lines&topic=An introduction to geometry"
         }
       ]
-    }
+    },
+  {
+      "id": 1,
+      "topic": "Measure and classify an angle",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A line that has one defined endpoint is called a ray and extends endlessly in one direction. A ray is named after the endpoint and another point on the ray e.g."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/ray.png",
+          "alt": "AB"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/abarrowhead.png",
+          "alt": "AB"
+        },
+        {
+          "type": "paragraph",
+          "text": "The angle that is formed between two rays with the same endpoint is measured in degrees. The point is called the vertex"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/vertex.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The vertex is written as"
+        },
+        {
+          "type": "paragraph",
+          "text": "∡CAB"
+        },
+        {
+          "type": "paragraph",
+          "text": "In algebra we used the coordinate plane to graph and solve equations.  You can plot lines, line segments, rays and angles in a coordinate plane."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/coordinate.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Angles can be either straight, right, acute or obtuse."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/angles.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "An angle is a fraction of a circle where the whole circle is 360°. A straight angle is the same as half the circle and is 180° whereas a right angle is a quarter of a circle and is 90°."
+        },
+        {
+          "type": "paragraph",
+          "text": "You measure the size of an angle with a protractor"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/protractor.png"
+        },
+         {
+          "type": "paragraph",
+          "text": "Or could be shown by an arc on the figure to indicate which angles that are congruent."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/arc.png"
+        },
+         {
+          "type": "paragraph",
+          "text": "Two angles whose measures together are 90° are called complementary."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/complementary.jpg"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        },
+        {
+          "type": "task",
+          "src": "task.html?chapter=Points, Lines&topic=An introduction to geometry"
+        }
+      ]
+    },
 ]
