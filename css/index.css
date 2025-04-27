@@ -107,7 +107,7 @@ body.dark-theme .paragraph-bar {
     background-color: inherit;
 }
 .calc-container > img {
-    transform: rotate(180deg);
+    transform: rotate(90deg);
     width: 20px;
 }
 
