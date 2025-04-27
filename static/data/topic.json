@@ -264,7 +264,7 @@
         }
       ]
     },
-   {
+    {
       "id": 1,
       "topic": "Polygons",
       "content": [
@@ -600,5 +600,63 @@
         "src": "task.html?chapter=Points, Lines&topic=An introduction to geometry"
       }
     ]
-  } 
+  },
+  {
+      "id": 4,
+      "topic": "More about triangles",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The circumcenter of a triangle is the point that is at an equidistance from the vertices of the triangle. In the following triangle, D is the circumcenter of the triangle and therefore are AD = BD = CD"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/tri1.jpg"
+        },
+       {
+          "type": "paragraph",
+          "text": "If we split an angle in a triangle in the absolute middle then that gives us a bisector of that angle. Any point on the bisector is equidistant from the sides of the angle:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/tri2.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "The point that is equidistant to all sides of a triangle is called the incenter:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/tri3.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "A median is a line segment that has one of its endpoints in the vertex of a triangle and the other endpoint in the midpoint of the side opposite the vertex. The three medians of a triangle meet in the centroid. The centroid is located two thirds of the distance from any vertex of the triangle."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/tri4.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Here EG = (2/3)EC, FG = (2/3)FA, and DG = (2/3)DB."
+        },
+        {
+          "type": "paragraph",
+          "text": "Every triangle has three altitudes. The altitude is a line segment that extends from a vertex and that is perpendicular to the side opposite the vertex. The intersection point of all three altitudes in a triangle is called the orthocenter:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/tri5.jpg"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        },
+        {
+          "type": "task",
+          "src": "task.html?chapter=Points, Lines&topic=Polygons"
+        }
+      ]
+    }
 ]
