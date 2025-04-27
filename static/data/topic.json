@@ -110,7 +110,7 @@
         },
         {
           "type": "task",
-          "src": "task.html?chapter=Points, Lines&topic=An introduction to geometry"
+          "src": "task.html?chapter=Points, Lines&topic=Measure line segments"
         }
       ]
     },
@@ -172,7 +172,7 @@
         },
         {
           "type": "task",
-          "src": "task.html?chapter=Points, Lines&topic=An introduction to geometry"
+          "src": "task.html?chapter=Points, Lines&topic=Finding distances and midpoints"
         }
       ]
     },
@@ -260,7 +260,7 @@
         },
         {
           "type": "task",
-          "src": "task.html?chapter=Points, Lines&topic=An introduction to geometry"
+          "src": "task.html?chapter=Points, Lines&topic=Measure and classify an angle"
         }
       ]
     },
@@ -294,7 +294,7 @@
         },
         {
           "type": "task",
-          "src": "task.html?chapter=Points, Lines&topic=An introduction to geometry"
+          "src": "task.html?chapter=Points, Lines&topic=Polygons"
         }
       ]
     }
