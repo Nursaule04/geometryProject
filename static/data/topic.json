@@ -332,7 +332,7 @@
         },
         {
           "type": "task",
-          "src": "task.html?chapter=Points, Lines&topic=Polygons"
+          "src": "task.html?chapter=Proof&topic=Conjecture"
         }
       ]
     },
@@ -394,7 +394,7 @@
         },
         {
           "type": "task",
-          "src": "task.html?chapter=Points, Lines&topic=Polygons"
+          "src": "task.html?chapter=Proof&topic=Working with logic"
         }
       ]
     },
@@ -508,7 +508,7 @@
         },
         {
           "type": "task",
-          "src": "task.html?chapter=Points, Lines&topic=Polygons"
+          "src": "task.html?chapter=Proof&topic=if-then statement"
         }
       ]
     },
@@ -554,7 +554,7 @@
         },
         {
           "type": "task",
-          "src": "task.html?chapter=Points, Lines&topic=Polygons"
+          "src": "task.html?chapter=Proof&topic=proofs with algebra"
         }
       ]
     },
@@ -597,7 +597,7 @@
       },
       {
         "type": "task",
-        "src": "task.html?chapter=Points, Lines&topic=An introduction to geometry"
+        "src": "task.html?chapter=Triangles&topic=Congruent triangles"
       }
     ]
   },
@@ -655,7 +655,7 @@
         },
         {
           "type": "task",
-          "src": "task.html?chapter=Points, Lines&topic=Polygons"
+          "src": "task.html?chapter=Triangles&topic=More about triangles"
         }
       ]
     },
@@ -713,7 +713,7 @@
         },
         {
           "type": "task",
-          "src": "task.html?chapter=Points, Lines&topic=Polygons"
+          "src": "task.html?chapter=Triangles&topic=Inequalities"
         }
       ]
     },
@@ -739,7 +739,7 @@
         },
         {
           "type": "task",
-          "src": "task.html?chapter=Points, Lines&topic=Polygons"
+          "src": "task.html?chapter=Congruence and Similarity&topic=polygons"
         }
       ]
     },
@@ -789,7 +789,7 @@
         },
         {
           "type": "task",
-          "src": "task.html?chapter=Points, Lines&topic=Polygons"
+          "src": "task.html?chapter=Congruence and Similarity&topic=Triangles"
         }
       ]
     }
