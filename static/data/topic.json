@@ -298,10 +298,10 @@
         }
       ]
     },
-  {
+    {
       "id": 2,
       "topic": "Conjecture",
-      "content": [
+      "content": [ 
         {
           "type": "paragraph",
           "text": "If we look at data over the precipitation in a city for 29 out of 30 days and see that it has been raining every single day it would be a good guess that it will be raining the 30th day as well. A conjecture is an educated guess that is based on known information."
@@ -336,7 +336,7 @@
         }
       ]
     },
-  {
+    {
       "id": 2,
       "topic": "Working with logic",
       "content": [
@@ -398,7 +398,7 @@
         }
       ]
     },
-  {
+    {
       "id": 2,
       "topic": "if-then statement",
       "content": [
