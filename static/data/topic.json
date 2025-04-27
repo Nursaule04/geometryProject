@@ -264,4 +264,38 @@
         }
       ]
     },
+   {
+      "id": 1,
+      "topic": "Polygons",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A polygon is a closed figure where the sides are all line segments. Each side must intersect exactly two others sides but only at their endpoints. The sides must be noncollinear and have a common endpoint."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/polygons.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "A polygon is usually named after how many sides it has, a polygon with n-sides is called a n-gon. E.g. the building which houses United States Department of Defense is called pentagon since it has 5 sides."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/nums.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "A regular polygon is a polygon in which all sides are congruent and all the angles are congruent."
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        },
+        {
+          "type": "task",
+          "src": "task.html?chapter=Points, Lines&topic=An introduction to geometry"
+        }
+      ]
+    }
 ]
