@@ -26,10 +26,10 @@
   },
   {
     "id": 3,
-    "chapter": "Perpendecular and parllel",
+    "chapter": "Perpendicular and parallel",
     "body": {
       "topics": [
-        "Angless, parallel lines and transverssals"
+        "Angles, parallel lines and transversals"
       ]
     }
   },
@@ -45,7 +45,7 @@
   },
   {
     "id": 5,
-    "chapter": "Similarity",
+    "chapter": "Congruence and Similarity",
     "body": {
       "topics": [
         "Polygons",
@@ -75,7 +75,7 @@
   },
   {
     "id": 8,
-    "chapter": "Quadrilaterals",
+    "chapter": "Transformations",
     "body": {
       "topics": [
         "Common types of transformation",
@@ -86,7 +86,7 @@
   },
   {
     "id": 9,
-    "chapter": "Circles",
+    "chapter": "Circle",
     "body": {
       "topics": [
         "Basic information about circles",
