@@ -1,5 +1,5 @@
 [
-{
+  {
     "id": 1,
     "topic": "An introduction to geometry",
     "content": [
@@ -114,7 +114,7 @@
         }
       ]
     },
-  {
+    {
       "id": 1,
       "topic": "Finding distances and midpoints",
       "content": [
@@ -512,7 +512,7 @@
         }
       ]
     },
-  {
+    {
       "id": 2,
       "topic": "proofs with algebra",
       "content": [
@@ -558,4 +558,48 @@
         }
       ]
     },
+    {
+    "id": 4,
+    "topic": "Congruent triangles",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "In Pre-algebra we learnt that triangles have three sides and three angles. We also learnt that the sum of the angles in a triangle is 180°."
+      },
+      {
+        "type": "paragraph",
+        "text": "If two triangles have the same size and shape they are called congruent triangles. If we flip, turn or rotate one of two congruent triangles they are still congruent."
+      },  
+      {
+        "type": "image",
+        "src": "../static/image/triangle.jpg",
+        "alt": "dot"
+      },
+      {
+        "type": "paragraph",
+        "text": "If the sides of two triangles are the same then the triangles must have the same angles and therefore must be congruent. We can tell just from knowing the sides if two triangles are congruent or not."
+      },
+      {
+        "type": "paragraph",
+        "text": "If we know that two sides of a triangle and the angle between them are congruent to two sides and the angle between them of another triangle then these two triangles are also congruent."
+      },
+      {
+        "type": "paragraph",
+        "text": "Likewise if we know that two angles and the side between them are congruent to two angles and the side between them in another triangle then these two triangles are also congruent."
+      },
+      {
+        "type": "paragraph",
+        "text": "The last case that gives us congruent triangles is when two angles and a nonincluded side in one triangle are congruent to the corresponding angles and side of another triangle."
+      },  
+      {
+        "type": "video",
+        "src": "https://youtu.be/Ow6PZVftvxs?si=neCwbtUhzDl01RxY"
+      },
+      {
+        "type": "task",
+        "src": "task.html?chapter=Points, Lines&topic=An introduction to geometry"
+      }
+    ]
+  },
+    
 ]
