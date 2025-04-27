@@ -193,5 +193,350 @@
         "correct": 1
       }
     ]
+  },
+  {
+    "id": 2,
+    "topic": "Conjecture",
+    "questions": [
+      {
+        "id": 1,
+        "question": "We have the following series 16,17,18,19. What could be the next number?",
+        "answers": [
+          "19",
+          "20",
+          "21",
+          "22"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 2,
+        "question": "We have the following series 4,16,64,256. What could be the next number?",
+        "answers": [
+          "512",
+          "768",
+          "2048",
+          "1024"
+        ],
+        "correct": 3
+      },
+      {
+        "id": 3,
+        "question": "What is a conjecture?",
+        "answers": [
+          "A conclusion that is always true, based on logic.",
+          "An educated guess based on known information.",
+          "A proven theory with substantial evidence.",
+          "A statement that is always false."
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Working with logic",
+    "questions": [
+      {
+        "id": 1,
+        "question": "True of false: All mathematics are based on axioms, definitions and logic.",
+        "answers": [
+          "True",
+          "False"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "question": "True of false: All birds can fly.",
+        "answers": [
+          "True",
+          "False"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 3,
+        "question": "True of false: New York is the capital of Sweden",
+        "answers": [
+          "True",
+          "False"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "if-then statement",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Let A = It is raining outside, B = the ground is wet. Klick on the statement that is true.",
+        "answers": [
+          "A↔B",
+          "A→B",
+          "B↔A",
+          "B→A"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 2,
+        "question": "Let A = The geometric figure is a triangle, B = The sum of all the angles are 180 degrees. Which statement is true?",
+        "answers": [
+          "A↔B",
+          "A→B",
+          "B↔A",
+          "B→A"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "question": "Hypotheses followed by a conclusion is called",
+        "answers": [
+          "Statement.",
+          "Conclusion.",
+          "There is no hypotheses.",
+          "A conditional statement."
+        ],
+        "correct": 3
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "proofs with algebra",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which postulate states that two points on a line can be matched with real numbers so that one point is 0 and the other is a positive real number?",
+        "answers": [
+          "Segment Addition Postulate",
+          "Angle Addition Postulate",
+          "Ruler Postulate",
+          "Midpoint Postulate"
+        ],
+        "correct": 2
+      },
+      {
+        "id": 2,
+        "question": "According to the Segment Addition Postulate, if point B is between points A and C, which equation is true?",
+        "answers": [
+          "AB = AC + BC",
+          "AC = AB + BC",
+          "AC = AB - BC",
+          "AB + AC = BC"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 3,
+        "question": "If m∠BAD = 40° and m∠DAC = 50°, what is m∠BAC according to the Angle Addition Postulate?",
+        "answers": [
+          "40°",
+          "50°",
+          "90°",
+          "100°"
+        ],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Congruent triangles",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Identify congruence criteria",
+        "answers": [
+          "One side have the same colour",
+          "Two sides have equal length",
+          "Two sides and the angle in between are the same",
+          "One angle is the same size"
+        ],
+        "correct": 2
+      },
+      {
+        "id": 2,
+        "question": "Identify congruence criteria",
+        "answers": [
+          "Two angles and the side in between are the same",
+          "Two angles and one side not in between are the same",
+          "One lays in the same direction",
+          "The sum of three sides are the same"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "question": "Identify congruence criteria",
+        "answers": [
+          "One side and one angle are they same",
+          "One side has the same length",
+          "Three sides have equal length",
+          "Two sides have the same length"
+        ],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "More about triangles",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which point in a triangle is equidistant from all three vertices?",
+        "answers": [
+          "Incenter",
+          "Centroid",
+          "Orthocenter",
+          "Circumcenter"
+        ],
+        "correct": 3
+      },
+      {
+        "id": 2,
+        "question": "Which point in a triangle is equidistant from all three sides?",
+        "answers": [
+          "Orthocenter",
+          "Incenter",
+          "Centroid",
+          "Circumcenter"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 3,
+        "question": "Which point is found at the intersection of a triangle’s medians and is located two-thirds of the distance from each vertex?",
+        "answers": [
+          "Centroid",
+          "Incenter",
+          "Orthocenter",
+          "Circumcenter"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Inequalities",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is always true about an exterior angle of a triangle?",
+        "answers": [
+          "It is smaller than either remote interior angle",
+          "It is equal to the largest interior angle",
+          "It is greater than either remote interior angle",
+          "It is equal to the sum of two sides"
+        ],
+        "correct": 2
+      },
+      {
+        "id": 2,
+        "question": "If side BC is longer than side AB in a triangle, what can be said about the angles?",
+        "answers": [
+          "Angle opposite AB is greater than the angle opposite BC",
+          "Angle opposite BC is greater than the angle opposite AB",
+          "Both angles are congruent",
+          "The triangle is always a right triangle"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 3,
+        "question": "According to the Triangle Inequality Theorem, which statement is true?",
+        "answers": [
+          "The sum of the lengths of two sides equals the third side",
+          "The sum of the lengths of two sides is less than the third side",
+          "The difference of the lengths of two sides is greater than the third side",
+          "The sum of the lengths of two sides is greater than the third side"
+        ],
+        "correct": 3
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "polygons",
+    "questions": [
+      {
+        "id": 1,
+        "question": "The triangle ABC have the sides 50 mm, 6 cm and 0,5 dm. The triangle DEF have the corresponding sides 25 cm, 3 dm and 251 mm. Note the units.Are the two triangles congruent ABC ≅ DEF?",
+        "answers": [
+          "No",
+          "Not possible to answe",
+          "Yes",
+          "Maybe"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "question": "What is true about two similar polygons?",
+        "answers": [
+          "They have the same number of sides but different shapes",
+          "Their areas are always equal",
+          "Their corresponding angles are congruent and corresponding sides are proportional",
+          "They are always regular polygons"
+        ],
+        "correct": 2
+      },
+      {
+        "id": 3,
+        "question": "In two similar polygons, the ratio of the lengths of corresponding sides is 3:5. What is the ratio of their perimeters?",
+        "answers": [
+          "9:25",
+          "3:5",
+          "5:3",
+          "15:1"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Triangles",
+    "questions": [
+      {
+        "id": 1,
+        "question": "If two triangles are similar, which of the following is always true?",
+        "answers": [
+          "The corresponding angles are congruent and the corresponding sides are proportional",
+          "The corresponding sides are congruent and the corresponding angles are proportional",
+          "The triangles must be equilateral",
+          "The triangles must be right triangles"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "question": "In two similar triangles, the ratio of corresponding sides is 4:7. What is the ratio of their areas?",
+        "answers": [
+          "4:7",
+          "16:49",
+          "2:3",
+          "7:4"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 3,
+        "question": "If two triangles are similar and the length of a side of the first triangle is 8 cm and the corresponding side of the second triangle is 12 cm, what is the scale factor of the second triangle?",
+        "answers": [
+          "3:2",
+          "8:12",
+          "1:1",
+          "2:3"
+        ],
+        "correct": 3
+      }
+    ]
   }
 ]
