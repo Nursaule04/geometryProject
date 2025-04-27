@@ -297,5 +297,167 @@
           "src": "task.html?chapter=Points, Lines&topic=Polygons"
         }
       ]
-    }
+    },
+  {
+      "id": 2,
+      "topic": "Conjecture",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "If we look at data over the precipitation in a city for 29 out of 30 days and see that it has been raining every single day it would be a good guess that it will be raining the 30th day as well. A conjecture is an educated guess that is based on known information."
+        },
+        {
+          "type": "paragraph",
+          "text": "Example"
+        },
+        {
+          "type": "paragraph",
+          "text": "If we are given information about the quantity and formation of section 1, 2 and 3 of stars our conjecture would be as follows."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/stars.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "This method to use a number of examples to arrive at a plausible generalization or prediction could also be called inductive reasoning."
+        },
+        {
+          "type": "paragraph",
+          "text": "If our conjecture would turn out to be false it is called a counterexample."
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        },
+        {
+          "type": "task",
+          "src": "task.html?chapter=Points, Lines&topic=Polygons"
+        }
+      ]
+    },
+  {
+      "id": 2,
+      "topic": "Working with logic",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A true-false statement is any sentence that is either true or false but not both. A negation of a statement has the opposite meaning of a truth value. A negations is written as ~p."
+        },
+        {
+          "type": "paragraph",
+          "text": "If we call the statement: cucumbers are green, p then:"
+        },
+        {
+          "type": "paragraph",
+          "text": "p: cucumbers are green - this statement is true."
+        },
+        {
+          "type": "paragraph",
+          "text": "~p: cucumbers are not green - this statement is false."
+        },
+        {
+          "type": "paragraph",
+          "text": "If we join two statements we can form a compound statement or a conjunction. A conjunction could contain the two statements q and p:"
+        },
+        {
+          "type": "paragraph",
+          "text": "p: cucumbers are green."
+        },
+        {
+          "type": "paragraph",
+          "text": "q: cucumbers are vegetables."
+        },
+        {
+          "type": "paragraph",
+          "text": "Conjunctions are noted:"
+        },
+        {
+          "type": "paragraph",
+          "text": "p∧q"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is read - p and q. Cucumbers are green and vegetables."
+        },
+        {
+          "type": "paragraph",
+          "text": "A conjunction is true only if both statements that form the conjunction is true."
+        },
+        {
+          "type": "paragraph",
+          "text": "If we have two statements that are joined by 'or' we have a disjunction."
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        },
+        {
+          "type": "task",
+          "src": "task.html?chapter=Points, Lines&topic=Polygons"
+        }
+      ]
+    },
+  {
+      "id": 2,
+      "topic": "if-then statement",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "When we previously discussed inductive reasoning we based our reasoning on examples and on data from earlier events. If we instead use facts, rules and definitions then it's called deductive reasoning."
+        },
+        {
+          "type": "paragraph",
+          "text": "We will explain this by using an example."
+        },
+        {
+          "type": "paragraph",
+          "text": "If you get good grades then you will get into a good college."
+        },
+        {
+          "type": "paragraph",
+          "text": "The part after the 'if': you get good grades - is called a hypotheses and the part after the 'then' - you will get into a good college - is called a conclusion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hypotheses followed by a conclusion is called an If-then statement or a conditional statement."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is noted as"
+        },
+        {
+          "type": "paragraph",
+          "text": "p -→ q"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is read - if p then q."
+        },
+        {
+          "type": "paragraph",
+          "text": "A conditional statement is false if hypothesis is true and the conclusion is false. The example above would be false if it said 'if you get good grades then you will not get into a good college'."
+        },
+        {
+          "type": "paragraph",
+          "text": "If we re-arrange a conditional statement or change parts of it then we have what is called a related conditional."
+        },
+        {
+          "type": "paragraph",
+          "text": "A conjunction is true only if both statements that form the conjunction is true."
+        },
+        {
+          "type": "paragraph",
+          "text": "If we have two statements that are joined by 'or' we have a disjunction."
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        },
+        {
+          "type": "task",
+          "src": "task.html?chapter=Points, Lines&topic=Polygons"
+        }
+      ]
+    },
 ]
