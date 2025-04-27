@@ -1,5 +1,5 @@
 [
-  {
+{
     "id": 1,
     "topic": "An introduction to geometry",
     "content": [
@@ -449,6 +449,104 @@
         {
           "type": "paragraph",
           "text": "If we have two statements that are joined by 'or' we have a disjunction."
+        },
+        {
+          "type": "paragraph",
+          "text": "Example"
+        },
+        {
+          "type": "paragraph",
+          "text": "Our conditional statement is: if a population consists of 50% men then 50% of the population must be women."
+        },
+        {
+          "type": "paragraph",
+          "text": "p -→ q"
+        },
+        {
+          "type": "paragraph",
+          "text": "If we exchange the position of the hypothesis and the conclusion we get a converse statement: if a population consists of 50% women then 50% of the population must be men."
+        },
+        {
+          "type": "paragraph",
+          "text": "q -→ p"
+        },
+        {
+          "type": "paragraph",
+          "text": "If both statements are true or if both statements are false then the converse is true. A conditional and its converse do not mean the same thing"
+        },
+        {
+          "type": "paragraph",
+          "text": "If we negate both the hypothesis and the conclusion we get a inverse statement: if a population do not consist of 50% men then the population do not consist of 50% women."
+        },
+        {
+          "type": "paragraph",
+          "text": "∼p -→ ∼q"
+        },
+        {
+          "type": "paragraph",
+          "text": "The inverse is not true juest because the conditional is true. The inverse always has the same truth value as the converse."
+        },
+        {
+          "type": "paragraph",
+          "text": "We could also negate a converse statement, this is called a contrapositive statement:  if a population do not consist of 50% women then the population do not consist of 50% men."
+        },
+        {
+          "type": "paragraph",
+          "text": "∼q -→ ∼p"
+        },
+        {
+          "type": "paragraph",
+          "text": "The contrapositive does always have the same truth value as the conditional. If the conditional is true then the contrapositive is true."
+        },
+        {
+          "type": "paragraph",
+          "text": "A pattern of reaoning is a true assumption if it always lead to a true conclusion. The most common patterns of reasoning are detachment and syllogism."
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        },
+        {
+          "type": "task",
+          "src": "task.html?chapter=Points, Lines&topic=Polygons"
+        }
+      ]
+    },
+  {
+      "id": 2,
+      "topic": "proofs with algebra",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A two column proof is a method to prove statements using properties that justify each step. The properties are called reasons. All reasons used have been showed in previously algebra courses. We will in the following video lesson show how to prove that x=-½ using the two column proof method."
+        },
+        {
+          "type": "paragraph",
+          "text": "The ruler postulate tells us that two points on a line can be paired with real numbers so that, given any two points A and B, A is zero and B is a positive real number."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/proof1.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Further on the segment addition postulate tells us that if a point B is somewhere between point A and point C then AB + BC = AC."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/proof2.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "similar relationship is the angle addition postulate. If we have the following angls:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/proof3.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "thenm∠BAD+m∠DAC=m∠BAC"
         },
         {
           "type": "video",
