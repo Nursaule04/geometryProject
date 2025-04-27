@@ -716,5 +716,81 @@
           "src": "task.html?chapter=Points, Lines&topic=Polygons"
         }
       ]
+    },
+    {
+      "id": 5,
+      "topic": "Polygons",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Any two polygons are similar if their corresponding angles are congruent and the measures of their corresponding sides are proportional:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/pol1.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the figure above the ratio or the scale factor of the quadrilateral to the left versus the quadrilateral to the right is ½. We could also turn it around and say that the scale factor for the quadrilateral to the right to the quadrilateral to the left is 2."
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        },
+        {
+          "type": "task",
+          "src": "task.html?chapter=Points, Lines&topic=Polygons"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "topic": "Triangles",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "If the measures of the corresponding sides of two triangles are proportional then the triangles are similar. Likewise if the measures of two sides in one triangle are proportional to the corresponding sides in another triangle and the including angles are congruent then the triangles are similar."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/pol2.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "If a line is drawn in a triangle so that it is parallel to one of the sides and it intersects the other two sides then the segments are of proportional lengths:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/pol3.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Parts of two triangles can be proportional; if two triangles are known to be similar then the perimeters are proportional to the measures of corresponding sides."
+        },
+        {
+          "type": "paragraph",
+          "text": "Continuing, if two triangles are known to be similar then the measures of the corresponding altitudes are proportional to the corresponding sides."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lastly, if two triangles are known to be similar then the measures of the corresponding angle bisectors or the corresponding medians are proportional to the measures of the corresponding sides."
+        },
+        {
+          "type": "paragraph",
+          "text": "The bisector of an angle in a triangle separates the opposite side into two segments that have the same ratio as the other two sides:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/pol4.jpg"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        },
+        {
+          "type": "task",
+          "src": "task.html?chapter=Points, Lines&topic=Polygons"
+        }
+      ]
     }
 ]
