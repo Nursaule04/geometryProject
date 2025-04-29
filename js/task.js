@@ -72,6 +72,7 @@ fetch('../static/data/task.json')
                         `;
                         document.getElementById('restart-btn').onclick = () => {
                             currentQuestionIndex = 0;
+                            correctAnswerCount = 0;
                             renderQuestion(currentQuestionIndex);
                             updateProgress(currentQuestionIndex);
                         };
