@@ -559,6 +559,76 @@
       ]
     },
     {
+      "id": 3,
+      "topic": "Angles, parallel lines and transversals",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Two lines that are stretched into infinity and still never intersect are called coplanar lines and are said to be parallel lines. The symbol for 'parallel to' is //."
+        },
+        {
+          "type": "paragraph",
+          "text": "TIf we have two lines (they don't have to be parallel) and have a third line that crosses them as in the figure below - the crossing line is called a transversal:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/transversal.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the following figure:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/transversal2.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "If we draw to parallel lines and then draw a line transversal through them we will get eight different angles."
+        },
+        {
+          "type": "paragraph",
+          "text": "The eight angles will together form four pairs of corresponding angles. Angles F and B in the figure above constitutes one of the pairs. Corresponding angles are congruent if the two lines are parallel. All angles that have the same position with regards to the parallel lines and the transversal are corresponding pairs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Angles that are in the area between the parallel lines like angle H and C above are called interior angles whereas the angles that are on the outside of the two parallel lines like D and G are called exterior angles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Angles that are on the opposite sides of the transversal are called alternate angles e.g. H and B."
+        },
+        {
+          "type": "paragraph",
+          "text": "Angles that share the same vertex and have a common ray, like angles G and F or C and B in the figure above are called adjacent angles. As in this case where the adjacent angles are formed by two lines intersecting we will get two pairs of adjacent angles (G + F and H + E) that are both supplementary."
+        },
+        {
+          "type": "paragraph",
+          "text": "Two angles that are opposite each other as D and B in the figure above are called vertical angles. Vertical angles are always congruent."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/transversal3.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Two lines are perpendicular if they intersect in a right angle. The axes of a coordinate plane is an example of two perpendicular lines."
+        },
+        {
+          "type": "paragraph",
+          "text": "In algebra 2 we have learnt how to find the slope of a line. Two parallel lines have always the same slope and two lines are perpendicular if the product of their slope is -1."
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        },
+        {
+          "type": "task",
+          "src": "task.html?chapter=Perpendicular and Parallel&topic=Angles, parallel lines and transversals"
+        }
+      ]
+    },
+    {
     "id": 4,
     "topic": "Congruent triangles",
     "content": [
@@ -790,6 +860,986 @@
         {
           "type": "task",
           "src": "task.html?chapter=Congruence and Similarity&topic=Triangles"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "topic": "Mean and geometry",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The geometric mean is the positive square root of the product of two numbers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Example"
+        },
+        {
+          "type": "paragraph",
+          "text": "The geometric mean between 2 and 4 is x. The proportion 2:x=x:4 must be true hence"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/mean.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "If we in the following triangle draw the altitude from the vertex of the right angle then the two triangles that are formed are similar to the triangle we had from the beginning. The two triangles formed are also similar to each other."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/mean2.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "△ABC∼△BCD∼△ABD"
+        },
+        {
+          "type": "paragraph",
+          "text": "The measure of the altitude drawn from the vertex of the right angle to the hypotenuse is the geometric mean between the measures of the two segments of the hypotenuse. Hence BD is the geometric mean of AD and DC."
+        },
+        {
+          "type": "paragraph",
+          "text": "Also in our figure the measure of a leg of the triangle is the geometric mean between the measures of the hypotenuse and the segment of the hypotenuse adjacent to that leg."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/mean3.png"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        },
+        {
+          "type": "task",
+          "src": "task.html?chapter=Right triangles and trigonometry&topic=Mean and geometry"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "topic": "The converse of the Pythagorean theorem and special triangles",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "If we know the sides of a triangle - we can always use the Pythagorean Theorem backwards in order to determine if we have a right triangle, this is called the converse of the Pythagorean Theorem."
+        },
+        {
+          "type": "paragraph",
+          "text": "If a^2+b^2=c^2 then △ABC is a right triangle."
+        },
+        {
+          "type": "paragraph",
+          "text": "When working with the Pythagorean theorem we will sometimes encounter whole specific numbers that always satisfy our equation - these are called a Pythagorean triple. One common Pythagorean triple is the 3-4-5 triangle where the sides are 3, 4 and 5 units long."
+        },
+        {
+          "type": "paragraph",
+          "text": "There are some special right triangles that are good to know, the 45°-45°-90° triangle has always a hypotenuse √2 times the length of a leg. In a 30°-60°-90° triangle the length of the hypotenuse is always twice the length of the shorter leg and the length of the longer leg is always √3 times the length of the shorter leg."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/Pythag.png"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        },
+        {
+          "type": "task",
+          "src": "task.html?chapter=Right triangles and trigonometry&topic=The converse of the Pythagorean theorem and special triangles"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "topic": "Angles",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "It is common knowledge that the sum of the angles in a triangle is 180° but how about in polygons with a greater numbers of angles? If we are given a convex polygon with n sides and S is the sum of the measures of the interior angles then S = 180(n - 2)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Example"
+        },
+        {
+          "type": "paragraph",
+          "text": "Find the sum of the measures of the interior angles in an octagon."
+        },
+        {
+          "type": "paragraph",
+          "text": "The octagon has 8 sides and we plug this value into our formula:"
+        },
+        {
+          "type": "paragraph",
+          "text": "S = 180(8 - 2) = 1080°"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hence the sum of the measures of the interior angles in an octagon is 1080°."
+        },
+        {
+          "type": "paragraph",
+          "text": "Another thing with convex polygons is that the sum of the measures of the exterior angles is always 360°"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/Angles.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "m∠A+m∠B+m∠C+m∠D+m∠E+m∠F=360"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        },
+        {
+          "type": "task",
+          "src": "task.html?chapter=Quadrilaterals&topic=Angles"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "topic": "Properties of parallelograms",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "One special kind of polygons is called a parallelogram. It is a quadrilateral where both pairs of opposite sides are parallel."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/parall.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "There are six important properties of parallelograms to know:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Opposite sides are congruent (AB = DC)"
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Opposite angels are congruent (D = B)"
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Consecutive angles are supplementary (A + D = 180°)"
+        },
+        {
+          "type": "paragraph",
+          "text": "4. If one angle is right, then all angles are right"
+        },
+        {
+          "type": "paragraph",
+          "text": "5. The diagonals of a parallelogram bisect each other"
+        },
+        {
+          "type": "paragraph",
+          "text": "6. Each diagonal of a parallelogram separates it into two congruent triangles"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/parall2.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "△ACD≅△ABC"
+        },
+        {
+          "type": "paragraph",
+          "text": "If we have a parallelogram where all sides are congruent then we have what is called a rhombus. The properties of parallelograms can be applied on rhombi."
+        },
+        {
+          "type": "paragraph",
+          "text": "If we have a quadrilateral where one pair and only one pair of sides are parallel then we have what is called a trapezoid. The parallel sides are called bases while the nonparallel sides are called legs. If the legs are congruent we have what is called an isosceles trapezoid."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/parall3.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "In an isosceles trapezoid the diagonals are always congruent. The median of a trapezoid is parallel to the bases and is one-half of the sum of measures of the bases."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/parall4.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "EF=(1/2)(AD+BC)"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        },
+        {
+          "type": "task",
+          "src": "task.html?chapter=Quadrilaterals&topic=Properties of parallelograms"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "topic": "Common types of transformation",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Any image in a plane could be altered by using different operations, or transformations. Here are the most common types:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/transf.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Translation is when we slide a figure in any direction."
+        },
+        {
+          "type": "paragraph",
+          "text": "Reflection is when we flip a figure over a line."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rotation is when we rotate a figure a certain degree around a point."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dilation is when we enlarge or reduce a figure."
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        },
+        {
+          "type": "task",
+          "src": "task.html?chapter=Transformations&topic=Common types of transformation"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "topic": "Vectors",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vectors are used to represent a quantity that has both a magnitude and a direction. The vector is normally visualized in a graph. A vector between A and B is written as"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/vector.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The vectors standard position has its starting point in origin."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/vector2.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The component form of a vector is the ordered pair that describes the changes in the x- and y-values. In the graph above x1=0, y1=0 and x2=2, y2=5. The ordered pair that describes the changes is (x2- x1, y2- y1), in our example (2-0, 5-0) or (2,5)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Two vectors are equal if they have the same magnitude and direction. They are parallel if they have the same or opposite direction."
+        },
+        {
+          "type": "paragraph",
+          "text": "We can combine vectors by adding them, the sum of two vectors is called the resultant."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/vector3.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "In order to add two vectors, we add the corresponding components."
+        },
+        {
+          "type": "paragraph",
+          "text": "Example"
+        },
+        {
+          "type": "paragraph",
+          "text": "Add the two following vectors:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/vector4.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "We add the corresponding components"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/vector5.png"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        },
+        {
+          "type": "task",
+          "src": "task.html?chapter=Transformations&topic=Vectors"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "topic": "Transformation using matrices",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A vector could be represented by an ordered pair (x,y) but it could also be represented by a column matrix:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/matric.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Polygons could also be represented in matrix form, we simply place all of the coordinates of the vertices into one matrix. This is called a vertex matrix."
+        },
+        {
+          "type": "paragraph",
+          "text": "Example"
+        },
+        {
+          "type": "paragraph",
+          "text": "A square has its vertexes in the following coordinates (1,1), (-1,1), (-1,-1) and (1,-1). If we want to create our vertex matrix we plug each ordered pair into each column of a 4 column matrix:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/matric2.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can use matrices to translate our figure, if we want to translate the figure x+3 and y+2 we simply add 3 to each x-coordinate and 2 to each y-coordinate."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/matric3.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "If we want to dilate a figure we simply multiply each x- and y-coordinate with the scale factor we want to dilate with."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/matric4.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "When we want to create a reflection image we multiply the vertex matrix of our figure with what is called a reflection matrix. The most common reflection matrices are:"
+        },
+        {
+          "type": "paragraph",
+          "text": "for a reflection in the x-axis"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/matric5.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "for a reflection in the y-axis"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/matric6.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "for a reflection in the origin"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/matric7.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "for a reflection in the line y=x"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/matric8.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Example"
+        },
+        {
+          "type": "paragraph",
+          "text": "We want to create a reflection of the vector in the x-axis."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/matric9.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "In order to create our reflection we must multiply it with correct reflection matrix"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/matric10.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hence the vertex matrix of our reflection is"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/matric11.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "If we want to rotate a figure we operate similar to when we create a reflection. If we want to counterclockwise rotate a figure 90° we multiply the vertex matrix with"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/matric12.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "If we want to counterclockwise rotate a figure 180° we multiply the vertex matrix with"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/matric13.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "If we want to counterclockwise rotate a figure 270°, or clockwise rotate a figure 90°, we multiply the vertex matrix with"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/matric14.png"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        },
+        {
+          "type": "task",
+          "src": "task.html?chapter=Transformations&topic=Transformation using matrices"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "topic": "Basic information about circles",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A circle is all points in the same plane that lie at an equal distance from a center point. The circle is only composed of the points on the border. You could think of a circle as a hula hoop. It's only the points on the border that are the circle. The points within the hula hoop are not part of the circle and are called interior points."
+        },
+        {
+          "type": "paragraph",
+          "text": "The distance between the midpoint and the circle border is called the radius. A line segment that has the endpoints on the circle and passes through the midpoint is called the diameter. The diameter is twice the size of the radius. A line segment that has its endpoints on the circular border but does not pass through the midpoint is called a chord."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/circ.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The distance around the circle is called the circumference, C, and could be determined either by using the radius, r, or the diameter, d:"
+        },
+        {
+          "type": "paragraph",
+          "text": "C=2πr"
+        },
+        {
+          "type": "paragraph",
+          "text": "C=πd"
+        },
+        {
+          "type": "paragraph",
+          "text": "A circle is the same as 360°. You can divide a circle into smaller portions. A part of a circle is called an arc and an arc is named according to its angle. Arcs are divided into minor arcs (0° < v < 180°), major arcs (180° < v < 360°) and semicircles (v = 180°)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The length of an arc, l, is determined by plugging the degree measure of the Arc, v, and the circumference of the whole circle, C, into the following formula:"
+        },
+        {
+          "type": "paragraph",
+          "text": "l=C⋅v/360"
+        },
+        {
+          "type": "paragraph",
+          "text": "When diameters intersect at the central of the circle they form central angles. Like when you cut a cake you begin your pieces in the middle."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/circ2.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Example"
+        },
+        {
+          "type": "paragraph",
+          "text": "As in the cake above we divide our circle into 8 pieces with the same angle. The circumference of the circle is 20 length units. Determine the length of the arc of each piece."
+        },
+        {
+          "type": "paragraph",
+          "text": "First we need to find the angle for each piece, since we know that a full circle is 360° we can easily tell that each piece has an angle of 360/8=45°. We plug these values into our formula for the length of arcs:"
+        },
+        {
+          "type": "paragraph",
+          "text": "l=C⋅v/360"
+        },
+        {
+          "type": "paragraph",
+          "text": "l=20⋅45/360=2.5"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hence the length of our arcs are 2.5 length units. We could even easier have told this by simply diving the circumference by the number of same size pieces: 20/8=2.5"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        },
+        {
+          "type": "task",
+          "src": "task.html?chapter=Circle&topic=Basic information about circles"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "topic": "Inscribed angles and polygons",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "An inscribed angle is an angle that has its vertex on the circle and the rays of the angle are cords of the circle."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/ins.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "If we have one angle that is inscribed in a circle and another that has the same starting points but its vertex is in the center of the circle then the second angle is twice the angle that is inscribed:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/ins2.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "2∠ABC=∠ADC"
+        },
+        {
+          "type": "paragraph",
+          "text": "Just as an angle could be inscribed into a circle a polygon could be inscribed into a circle as well:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/ins3.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "If a quadrilateral (as in the figure above) is inscribed in a circle, then its opposite angles are supplementary:"
+        },
+        {
+          "type": "paragraph",
+          "text": "∠A and ∠C are supplementary"
+        },
+        {
+          "type": "paragraph",
+          "text": "∠B and ∠D are supplementary"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        },
+        {
+          "type": "task",
+          "src": "task.html?chapter=Circle&topic=Inscribed angles and polygons"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "topic": "Advanced information about circles",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A line that intersects a circle in exactly one point is called a tangent and the point where the intersection occurs is called the point of tangency. The tangent is always perpendicular to the radius drawn to the point of tangency."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/adv.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "A secant is a line that intersects a circle in exactly two points."
+        },
+        {
+          "type": "paragraph",
+          "text": "When a tangent and a secant, two secants, or two tangents intersect outside a circle then the measure of the angle formed is one-half the positive difference of the measures of the intercepted arcs."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/adv2.jpg"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/adv3.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "When two chords intersect inside a circle, then the measures of the segments of each chord multiplied with each other is equal to the product from the other chord:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/adv4.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "AE⋅EB=CE⋅ED"
+        },
+        {
+          "type": "paragraph",
+          "text": "If two secants are drawn to a circle from one exterior point, then the product of the external segment and the total length of each secant are equal:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/adv5.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "AB⋅AD=AC⋅AE"
+        },
+        {
+          "type": "paragraph",
+          "text": "If one secant and one tangent are drawn to a circle from one exterior point, then the square of the length of the tangent is equal to the product of the external secant segment and the total length of the secant:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/adv6.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "AB^2=AC⋅AD"
+        },
+        {
+          "type": "paragraph",
+          "text": "If we have a circle drawn in a coordinate plane, with the center in (a,b) and the radius r then we could always describe the circle with the following equation:"
+        },
+        {
+          "type": "paragraph",
+          "text": "(x-a)^2+(y-b)^2=r^2"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        },
+        {
+          "type": "task",
+          "src": "task.html?chapter=Circle&topic=Advanced information about circles"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "topic": "Parallelogram, triangles etc",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The area of a parallelogram is determined by multiplying the base, b, with the height, h, of the parallelogram:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/ect.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "A=b⋅h"
+        },
+        {
+          "type": "paragraph",
+          "text": "The area of a triangle is determined by multiplying the base, b, with the height, h, of the triangle and divide by two:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/ect2.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "A=b⋅h/2"
+        },
+        {
+          "type": "paragraph",
+          "text": "The area of a trapezoid is determined by multiplying the mean value of the two bases, b1 and b2, with the height, h, of the trapezoid:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/ect3.jpg"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/ect4.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The area of a rhombus is determined by half the product of the two diagonals:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/ect5.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "A=(1/2)(AC)(BD)"
+        },
+        {
+          "type": "paragraph",
+          "text": "The area of a regular polygon is determined by the product of the perimeter, P, and what is called an apothem, a (see figure below):"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/ect6.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "A=Pa/2"
+        },
+        {
+          "type": "paragraph",
+          "text": "The area of a circle is determined by multiplying the square of the radius, r, with the constant π, pi:"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/ect7.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "A=πr^2"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        },
+        {
+          "type": "task",
+          "src": "task.html?chapter=Area&topic=Parallelogram, triangles etc"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "topic": "The surface area and the volume of pyramids, prisms, cylinders and cones",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The surface area is the area that describes the material that will be used to cover a geometric solid. When we determine the surface areas of a geometric solid we take the sum of the area for each geometric form within the solid."
+        },
+        {
+          "type": "paragraph",
+          "text": "The volume is a measure of how much a figure can hold and is measured in cubic units. The volume tells us something about the capacity of a figure."
+        },
+        {
+          "type": "paragraph",
+          "text": "A prism is a solid figure that has two parallel congruent sides that are called bases that are connected by the lateral faces that are parallelograms. There are both rectangular and triangular prisms."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/pri.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "To find the surface area of a prism (or any other geometric solid) we open the solid like a carton box and flatten it out to find all included geometric forms."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/pri2.jpg"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/pri3.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "To find the volume of a prism (it doesn't matter if it is rectangular or triangular) we multiply the area of the base, called the base area B, by the height h."
+        },
+        {
+          "type": "paragraph",
+          "text": "V=B⋅h"
+        },
+        {
+          "type": "paragraph",
+          "text": "A cylinder is a tube and is composed of two parallel congruent circles and a rectangle which base is the circumference of the circle."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/pri4.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Example"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/pri5.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "The area of one circle is:"
+        },
+        {
+          "type": "paragraph",
+          "text": "A=πr^2"
+        },
+        {
+          "type": "paragraph",
+          "text": "A=π⋅2^2"
+        },
+        {
+          "type": "paragraph",
+          "text": "A=π⋅4"
+        },
+        {
+          "type": "paragraph",
+          "text": "A≈12.6"
+        },
+        {
+          "type": "paragraph",
+          "text": "The circumference of a circle:"
+        },
+        {
+          "type": "paragraph",
+          "text": "C=πd"
+        },
+        {
+          "type": "paragraph",
+          "text": "C=π⋅4"
+        },
+        {
+          "type": "paragraph",
+          "text": "C≈12.6"
+        },
+        {
+          "type": "paragraph",
+          "text": "The area of the rectangle:"
+        },
+        {
+          "type": "paragraph",
+          "text": "A=C⋅h"
+        },
+        {
+          "type": "paragraph",
+          "text": "A=12.6⋅6"
+        },
+        {
+          "type": "paragraph",
+          "text": "A≈75.6"
+        },
+        {
+          "type": "paragraph",
+          "text": "The surface area of the whole cylinder:"
+        },
+        {
+          "type": "paragraph",
+          "text": "A=75.6 + 12.6 + 12.6 = 100.8 units^2"
+        },
+        {
+          "type": "paragraph",
+          "text": "To find the volume of a cylinder we multiply the base area (which is a circle) and the height h."
+        },
+        {
+          "type": "paragraph",
+          "text": "V=πr^2⋅h"
+        },
+        {
+          "type": "paragraph",
+          "text": "A pyramid consists of three, four or more (depending on the base) triangular lateral surfaces and a three or four sided surface, respectively, at its base. When we calculate the surface area of the pyramid below we take the sum of the areas of the 4 triangles area and the base square. The height of a triangle within a pyramid is called the slant height."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/pri6.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "The volume of a pyramid is one third of the volume of a prism."
+        },
+        {
+          "type": "paragraph",
+          "text": "V=(1/3)⋅B⋅h"
+        },
+        {
+          "type": "paragraph",
+          "text": "The base of a cone is a circle and that is easy to see. The lateral surface of a cone is a parallelogram with a base that is half the circumference of the cone and with the slant height as the height. This can be a little bit trickier to see, but if you cut the lateral surface of the cone into sections and lay them next to each other it's easily seen."
+        },
+        {
+          "type": "image",
+          "src": "../static/image/pri7.jpg"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/pri8.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "The surface area of a cone is thus the sum of the areas of the base and the lateral surface:"
+        },
+        {
+          "type": "paragraph",
+          "text": "A=πr2+πrl"
+        },
+        {
+          "type": "paragraph",
+          "text": "Example"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/pri9.jpg"
+        },
+        {
+          "type": "image",
+          "src": "../static/image/pri10.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The volume of a cone is one third of the volume of a cylinder."
+        },
+        {
+          "type": "paragraph",
+          "text": "V=(1/3)π⋅r^2⋅h"
+        },
+        {
+          "type": "paragraph",
+          "text": "Example"
+        },
+        {
+          "type": "paragraph",
+          "text": "Find the volume of a prism that has the base 5 and the height 3."
+        },
+        {
+          "type": "paragraph",
+          "text": "B=3⋅5=15"
+        },
+        {
+          "type": "paragraph",
+          "text": "V=15⋅3 = 45 units^3"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/3T0gjtXRNC0?si=zf0EdwVe6o70dGvs"
+        },
+        {
+          "type": "task",
+          "src": "task.html?chapter=Area&topic=The surface area and the volume of pyramids, prisms, cylinders and cones"
         }
       ]
     }
