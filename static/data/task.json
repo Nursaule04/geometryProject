@@ -345,6 +345,45 @@
     ]
   },
   {
+    "id": 3,
+    "topic": "Angles, parallel lines and transversals",
+    "questions": [
+      {
+        "id": 1,
+        "question": "When two parallel lines are cut by a transversal, which pair of angles are always congruent?",
+        "answers": [
+          "Consecutive interior angles",
+          "Corresponding angles",
+          "Vertical angles",
+          "Adjacent angles"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 2,
+        "question": "If two parallel lines are cut by a transversal, what is true about alternate interior angles?",
+        "answers": [
+          "hey are supplementary",
+          "They are congruent",
+          "They are adjacent",
+          "They form a linear pair"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 3,
+        "question": "Lines m and n are parallel, and transversal t cuts across them. If one corresponding angle measures 65°, what is the measure of the matching corresponding angle?",
+        "answers": [
+          "25°",
+          "65°",
+          "115°",
+          "155°"
+        ],
+        "correct": 2
+      }
+    ]
+  },
+  {
     "id": 4,
     "topic": "Congruent triangles",
     "questions": [
@@ -536,6 +575,417 @@
           "2:3"
         ],
         "correct": 3
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Mean and geometry",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the geometric mean?",
+        "answers": [
+          "The positive square root of the product of two numbers",
+          "The half of the product of two numbers",
+          "The mean of the product of two numbers squared",
+          "The mean of the sum of two numbers squared"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "question": "What is the geometric mean of 16 and 4?",
+        "answers": [
+          "4",
+          "8",
+          "12",
+          "16"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "The converse of the Pythagorean theorem and special triangles",
+    "questions": [
+      {
+        "id": 1,
+        "question": "The lengths of the two legs of a right triangle are 9 and 12. What is the square of the length of the hypotenuse?",
+        "answers": [
+          "81 + 144",
+          "9 + 12",
+          "9 * 12",
+          "9 + 144"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "question": "The two shortest sides in a triangle have a length of 9 and 12 respectively. The longest side is 15, is it a right triangle?",
+        "answers": [
+          "Yes",
+          "No"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Angles",
+    "questions": [
+      {
+        "id": 1,
+        "question": "How many sides does the polygon have if the total sum of interior angles is 1080°?",
+        "answers": [
+          "6",
+          "8",
+          "10",
+          "12"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 2,
+        "question": "If a polygon has 7 sides, what is the sum of the interior angles?",
+        "answers": [
+          "720°",
+          "800°",
+          "900°",
+          "1000°"
+        ],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Properties of parallelograms",
+    "questions": [
+      {
+        "id": 1,
+        "question": "For a parallelogram the following is always true...",
+        "answers": [
+          "Opposite sides are of equal length",
+          "All angles are right angles",
+          "All sides are of equal length",
+          "It has three sides"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "question": "For a parallelogram the following is always true...",
+        "answers": [
+          "It has five sides",
+          "All angles are obtuse",
+          "All angles are acute",
+          "Consecutive angles are supplementary"
+        ],
+        "correct": 3
+      },
+      {
+        "id": 3,
+        "question": "For a parallelogram the following is always false...",
+        "answers": [
+          "The diagonals of a parallelogram bisect each other",
+          "All the sides are equal",
+          "Opposite angles are congruent",
+          "If one angle is right, then all angles are right"
+        ],
+        "correct": 3
+      }
+      ]
+  },
+  {
+    "id": 8,
+    "topic": "Common types of transformation",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What type of transformation is translation?",
+        "answers": [
+          "We rotate a figure a certain degree around a point.",
+          "We enlarge or reduce a figure",
+          "We flip a figure over a line.",
+          "We slide a figure in any direction."
+        ],
+        "correct": 3
+      },
+      {
+        "id": 2,
+        "question": "What type of transformation is reflection?",
+        "answers": [
+          "We slide a figure in any direction.",
+          "We enlarge or reduce a figure",
+          "We flip a figure over a line.",
+          "We rotate a figure a certain degree around a point."
+        ],
+        "correct": 2
+      },
+      {
+        "id": 3,
+        "question": "What type of transformation is rotation?",
+        "answers": [
+          "We enlarge or reduce a figure",
+          "We flip a figure over a line.",
+          "We slide a figure in any direction.",
+          "We rotate a figure a certain degree around a point."
+        ],
+        "correct": 3
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Vectors",
+    "questions": [
+      {
+        "id": 1,
+        "question": "For two vectors u and v we have the following values: U =(3,7), V =(2,4). Calculate u + v.",
+        "answers": [
+          "(10,6)",
+          "(5,11)",
+          "(6,28)",
+          "(3,11)+(2,11)"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 2,
+        "question": "We have the vector u = (5,5). Calculate 9⋅u.",
+        "answers": [
+          "(14,14)",
+          "(5,45)",
+          "(45,5)",
+          "(45,45)"
+        ],
+        "correct": 3
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Transformation using matrices",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the primary purpose of a transformation matrix?",
+        "answers": [
+          "To add color to a shape",
+          "To resize a shape or move it to a new position",
+          "To change the shape into a different geometric figure",
+          "To calculate the perimeter of a shape"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 2,
+        "question": "Which of the following describes a scaling transformation using a matrix?",
+        "answers": [
+          "A matrix that changes the size of the shape while keeping its proportions the same",
+          "A matrix that rotates the shape around a point",
+          "A matrix that flips the shape over a line",
+          "A matrix that moves the shape to a different position without changing its size"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "question": "What does a matrix represent when used for a rotation transformation?",
+        "answers": [
+          "It changes the color of the shape.",
+          "It moves the shape in a straight line.",
+          "It rotates the shape around a point by a specific angle.",
+          "It flips the shape over a line."
+        ],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basic information about circles",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Let the radius of a circle be 8 cm. What is the length of the arc with an angle of 3°?",
+        "answers": [
+          "50,27 cm",
+          "0,21 cm",
+          "150,8 cm",
+          "0,42 cm"
+        ],
+        "correct": 3
+      },
+      {
+        "id": 2,
+        "question": "Let the radius of a circle be 5 cm. What is the angle of the arc with the length 10?",
+        "answers": [
+          "0,01∘",
+          "0,32∘",
+          "114,59∘",
+          "360∘"
+        ],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Inscribed angles and polygons",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is true about all vertices of a polygon that is inscribed in a circle??",
+        "answers": [
+          "They lie on the outside of the circle.",
+          "They are located inside the circle.",
+          "They are all on the circle.",
+          "They lie on the same side of the circle."
+        ],
+        "correct": 2
+      },
+      {
+        "id": 2,
+        "question": "If a triangle is inscribed in a circle and one of its sides is a diameter, what type of triangle is it?",
+        "answers": [
+          "Acute triangle",
+          "Obtuse triangle",
+          "Right triangle",
+          "Equilateral triangle"
+        ],
+        "correct": 2
+      },
+      {
+        "id": 3,
+        "question": "In a circle, what is the relationship between an inscribed angle and the arc it opens to?",
+        "answers": [
+          "The angle is the same as the arc's measure.",
+          "The angle is twice the arc's measure.",
+          "The angle has no relation to the arc.",
+          "The angle is half the arc's measure."
+        ],
+        "correct": 3
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Advanced information about circles",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Two chords intersect inside a circle. The segments of the chords measure 3 and 5, and 4 and x respectively. What is the value of x?",
+        "answers": [
+          "6",
+          "5",
+          "4",
+          "3,75"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "question": "What is true about the opposite angles of a quadrilateral inscribed in a circle?",
+        "answers": [
+          "They are equal.",
+          "They are supplementary.",
+          "They are complementary.",
+          "They are right angles."
+        ],
+        "correct": 1
+      },
+      {
+        "id": 3,
+        "question": "What is the measure of an angle formed by two secants intersecting outside the circle?",
+        "answers": [
+          "Half the sum of the intercepted arcs",
+          "Half the difference of the intercepted arcs",
+          "Equal to the smaller arc",
+          "Twice the central angle"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Parallelogram, triangles etc",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What of the following is always true for a parallelogram?",
+        "answers": [
+          "It's got only three sides.",
+          "All sides are equally long",
+          "Opposite side are always equal in length.",
+          "All angles are right hand angles"
+        ],
+        "correct": 2
+      },
+      {
+        "id": 2,
+        "question": "What is always true about opposite sides of a parallelogram?",
+        "answers": [
+          "They are different lengths",
+          "They are congruent",
+          "They are perpendicular",
+          "One is twice as long as the other"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 3,
+        "question": "Which statement is true for all equilateral triangles?",
+        "answers": [
+          "They have one right angle",
+          "They have two equal sides",
+          "All angles are equal",
+          "They have one pair of parallel sides"
+        ],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "The surface area and the volume of pyramids, prisms, cylinders and cones",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What do you need to calculate the volume of a prism?",
+        "answers": [
+          "Area of one base and the height",
+          "Perimeter and height",
+          "Slant height and radius",
+          "Diameter and slant height"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "question": "Which solid has a curved surface area, a base, and comes to a point?",
+        "answers": [
+          "Cylinder",
+          "Prism",
+          "Cone",
+          "Cube"
+        ],
+        "correct": 2
+      },
+      {
+        "id": 3,
+        "question": "Which formula correctly describes the volume of a cylinder?",
+        "answers": [
+          "Area of base * height",
+          "1 over 3 * area of base * height",
+          "1 over 2 * base * height",
+          "Base + height + slant height"
+        ],
+        "correct": 2
       }
     ]
   }
