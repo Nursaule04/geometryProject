@@ -11,6 +11,9 @@ body p, span, a{
     text-decoration: none;
 }
 
+a{
+    font-size: 85%;
+}
 
 /* Default (light theme) */
 body.light-theme {
@@ -78,7 +81,7 @@ body.dark-theme .paragraph-bar {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 2rem;
+    padding: 1rem 4rem;
     align-items: center;
     border-bottom: 1px solid #ddd;
 }
@@ -133,31 +136,33 @@ body.dark-theme .paragraph-bar {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    gap: 2rem;
+    gap:-0.3em
 }
 
 .hero-text {
     flex: 1;
     min-width: 280px;
     max-width: 570px;
+
 }
 
 .hero-text h2 {
-    font-size: 48px;
+    font-size: 43px;
     color: #f78020;
+    padding-bottom: 20px;
 }
 
 .hero-text p {
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .hero-img img {
-    max-width: 663px;
+    max-width: 580px;
     max-height: 442px;
 }
 
 .topics {
-    padding: 2rem;
+    padding: 4rem;
 }
 
 .topics h3 {
@@ -222,13 +227,13 @@ body.dark-theme .paragraph-bar {
     display: flex;
     background-color: #f0f3ff;
     align-items: center;
-    padding: 2rem;
+    padding: 4rem;
     justify-items: left;
-
+    gap: 30px;
 }
 
 .community-text h2{
-    font-size: 64px;
+    font-size: 58px;
     font-weight: bold;
     text-align: left;
     color: black;
@@ -262,7 +267,7 @@ body.dark-theme .paragraph-bar {
 
 .footer {
     background-color: #fff;
-    padding: 2rem 1rem;
+    padding: 2rem 4rem;
     border-top: 1px solid #ddd;
     font-size: 0.95rem;
 }
@@ -273,7 +278,7 @@ body.dark-theme .paragraph-bar {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 2rem;
+    gap: 50px;
     margin-bottom: 1rem;
 }
 
@@ -286,20 +291,19 @@ body.dark-theme .paragraph-bar {
 }
 
 .footer-logo h2{
-    font-size: 40px;
+    font-size: 38px;
     font-weight: lighter;
 }
 
 .footer-links {
     display: flex;
-    gap: 3rem;
+    gap: 150px;
     flex-wrap: wrap;
 
 }
 
 .footer-links ul {
     list-style: none;
-    padding: 0 40px;
 }
 
 .footer-links li {
@@ -377,6 +381,9 @@ nav > p{
     margin-right: 10px;
 }
 
+.at{
+    font-size: 25px;
+}
 /* --------------------------         TOPIC ---------------------------------------    */
 
 .chapter {

@@ -6,7 +6,7 @@ function getQueryParam(param) {
 const chapter = getQueryParam('chapter');
 
 
-fetch('/geometryProject/static/data/mock.json')
+fetch('../static/data/mock.json')
     .then(res => res.json())
     .then(data => {
         const topic = data.find(t => t.chapter === chapter);
@@ -21,7 +21,7 @@ fetch('/geometryProject/static/data/mock.json')
             card.className = 'chapter-card';
             card.innerHTML = `
             <div class="chapter-bar"></div>
-            <a href="../html/topic.html?chapter=${topic.chapter}&topic=${title}">${title}</a>
+            <a href="../html/topic.html?chapter=${topic.chapter}&topic=${title}" class='at'>${title}</a>
       `;
             container.appendChild(card);
         });
