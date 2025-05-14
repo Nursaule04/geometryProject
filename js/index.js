@@ -1,4 +1,3 @@
-
 document.getElementById('scroll-top-btn').addEventListener('click', () => {
-    document.getElementById('topics').scrollIntoView({ behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 });
