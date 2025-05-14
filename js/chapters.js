@@ -34,4 +34,3 @@ fetch('../static/data/mock.json')
 const calculator = document.getElementById('calculator')
 
 
-

@@ -37,7 +37,6 @@ fetch('../static/data/task.json')
                 <button id="submit-answer" class="submit-btn">Done</button>
             `;
 
-            // Выбор ответа
             document.querySelectorAll('.answer-btn').forEach(btn => {
                 btn.addEventListener('click', () => {
                     document.querySelectorAll('.answer-btn').forEach(b => b.classList.remove('selected'));
@@ -45,7 +44,6 @@ fetch('../static/data/task.json')
                 });
             });
 
-            // Обработка ответа
             document.getElementById('submit-answer').onclick = () => {
                 const selected = document.querySelector('.answer-btn.selected');
                 if (!selected) return;

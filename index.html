@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
-          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -23,7 +24,9 @@
                 <img src="static/image/arrow-right.png" alt="arrow">
             </button>
 
-            <button id="theme-toggle" class="top-btn">Theme toggle</button>
+            <button id="theme-toggle" class="top-btn">
+              <span id="sun-icon" class="sun-icon">☀️</span>
+              <span id="moon-icon" class="moon-icon">🌙</span>
         </div>
     </header>
     <section class="hero">
@@ -171,6 +174,10 @@
         </div>
     </div>
 
+    <div class="page-transition" id="transition"></div>
+
+    <script src="js/pageTransition.js"></script>
+
     <script src="js/modalPage.js"></script>
 
     <script>
@@ -190,6 +197,3 @@
     <script src="js/index.js"></script>
 </body>
 </html>
-
-
-

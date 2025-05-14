@@ -1,38 +1,21 @@
 class HystModal {
-    /**
-     * При создании экземпляра класса, мы передаём в него
-     * js-объект с настройками. Он становится доступен
-     * в конструкторе класса в виде переменной props
-     */
     constructor(props) {
         let defaultConfig = {
             linkAttributeName: 'data-hystmodal',
-            // ... здесь остальные свойства
         }
         this.config = Object.assign(defaultConfig, props);
         this._closeAfterTransition = this._closeAfterTransition.bind(this);
-        // сразу вызываем метод инициализации
         this.init();
     }
-
-    /**
-     * В свойство _shadow будет заложен div с визуальной
-     * подложкой. Оно сделано статическим, т.к. при создании
-     * нескольких экземпляров класса, эта подложка нужна только
-     * одна
-     */
     static _shadow = false;
 
     init() {
-        /**
-         * Создаём триггеры состояния, полезные переменные и.т.д.
-         */
-        this.isOpened = false; // открыто ли окно
-        this.openedWindow = false; //ссылка на открытый .hystmodal
-        this._modalBlock = false; //ссылка на открытый .hystmodal__window
-        this.starter = false; //ссылка на элемент "открыватель" текущего окна
-        this._nextWindows = false; //ссылка на .hystmodal который нужно открыть
-        this._scrollPosition = 0; //текущая прокрутка (см. выше)
+        this.isOpened = false; 
+        this.openedWindow = false; 
+        this._modalBlock = false; 
+        this.starter = false; 
+        this._nextWindows = false; 
+        this._scrollPosition = 0; 
 
         this._focusElements = [
             'a[href]',
@@ -54,7 +37,6 @@ class HystModal {
             document.body.appendChild(HystModal._shadow);
         }
 
-        //Запускаем метод для обработки событий
         this.eventsFeeler();
     }
 
@@ -91,11 +73,11 @@ class HystModal {
         }.bind(this));
 
         window.addEventListener("keydown", function (e) {
-            if (e.which == 27 && this.isOpened) { // Escape
+            if (e.which == 27 && this.isOpened) { 
                 e.preventDefault();
                 this.close();
             }
-            if (e.which == 9 && this.isOpened) { // Tab
+            if (e.which == 9 && this.isOpened) { 
                 this.focusCatcher(e);
             }
         }.bind(this));
@@ -139,7 +121,6 @@ class HystModal {
         HystModal._shadow.classList.add("hystmodal__shadow--show");
         document.body.classList.add("hystmodal__opened");
 
-        // Используем inert для блокировки фонового контента
         this._setInertForBackground(true);
 
         this.isOpened = true;
@@ -150,19 +131,13 @@ class HystModal {
 
     close() {
         if (!this.isOpened) return;
-
-        // Анимация закрытия окна
         this.openedWindow.classList.add("hystmodal--moved");
         this.openedWindow.addEventListener("transitionend", this._closeAfterTransition);
         this.openedWindow.classList.remove("hystmodal--active");
-
-        // Удаляем класс и стили с body после анимации
         document.body.classList.remove("hystmodal__opened");
-
-        // Используем setTimeout, чтобы дождаться завершения анимации
         setTimeout(() => {
-            document.body.style.overflow = '';  // Сбрасываем стиль overflow
-        }, 300); // Задержка, чтобы дать анимации время на завершение (300ms соответствует длительности анимации)
+            document.body.style.overflow = '';  
+        }, 300); 
     }
 
     _closeAfterTransition() {
@@ -172,10 +147,7 @@ class HystModal {
         this.openedWindow.setAttribute('aria-hidden', 'true');
         this.focusContol();
         this._bodyScrollControl();
-
-        // Используем inert для фонового контента
         this._setInertForBackground(false);
-
         this.isOpened = false;
     }
 
@@ -195,7 +167,6 @@ class HystModal {
     }
 
     _setInertForBackground(isInert) {
-        // Применяем inert ко всем элементам фона (кроме самого модального окна)
         const bodyElements = document.body.children;
         Array.from(bodyElements).forEach(element => {
             if (!element.contains(this.openedWindow)) {
