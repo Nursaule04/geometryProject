@@ -115,16 +115,12 @@ class HystModal {
     open(selector) {
         this.openedWindow = document.querySelector(selector);
         if (!this.openedWindow) return;
-
         this._modalBlock = this.openedWindow.querySelector('.hystmodal__window');
         this.openedWindow.classList.add("hystmodal--active");
         HystModal._shadow.classList.add("hystmodal__shadow--show");
         document.body.classList.add("hystmodal__opened");
-
         this._setInertForBackground(true);
-
         this.isOpened = true;
-
         this._setFocusToFirstNode();
         this._bodyScrollControl();
     }
